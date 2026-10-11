@@ -1,0 +1,4 @@
+# Lab05 - Pardon the Interruption...
+In this lab you’ll write assembly code that uses the ReadyAVR’s joystick to control the blink rate of an on-board LED. Specifically, you’ll enable the joystick to generate hardware interrupts that trigger the ATmega128A processor to run an interrupt service routine (ISR) which updates a register used by the main program to control the LED’s blink rate. Also, the ISR will cause four other on-board LEDs to show the current blink rate (~1 to 15 Hz) in 4-bit binary. See files <b>EECE3624_Lab05_Demo.mp4</b> and <b>EECE3624_Lab05_Notes.pdf</b> on the Canvas "Files>Labs>" folder for more info.
+
+Have fun!
